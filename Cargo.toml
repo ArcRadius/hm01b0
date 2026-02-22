@@ -1,0 +1,14 @@
+[package]
+authors = ["Matthew Clause"]
+categories = ["embedded", "hardware-support", "no-std"]
+description = "Raspberry Pico driver for Arducam HM01B0 camera modules."
+documentation = ""
+keywords = ["embedded-hal-driver", "camera"]
+license = "MIT"
+name = "hm01b0"
+repository = "https://github.com/ArcRadius/hm01b0"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+embedded-hal = "1.0.0"
